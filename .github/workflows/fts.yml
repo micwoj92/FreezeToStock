@@ -31,7 +31,7 @@ jobs:
            Start-Sleep -s 10
 
     - name: Upload
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
        name: FTS
        path: FreezeToStock\FTS.exe
